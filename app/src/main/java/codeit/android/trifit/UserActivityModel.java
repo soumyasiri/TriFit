@@ -4,12 +4,21 @@ import java.util.Date;
 
 public class UserActivityModel {
 
+    public int id;
     public String name;
-    public Date date;
-    public float running;
-    public float biking;
-    public float swimming;
-    public float percentage;
+    public String date;
+    public String running;
+    public String biking;
+    public String swimming;
+    public String total;
+
+    public int getId() {
+        return id;
+    }
+
+    public void setId(int id) {
+        this.id = id;
+    }
 
     public String getName() {
         return name;
@@ -19,43 +28,43 @@ public class UserActivityModel {
         this.name = name;
     }
 
-    public Date getDate() {
+    public String getDate() {
         return date;
     }
 
-    public void setDate(Date date) {
+    public void setDate(String date) {
         this.date = date;
     }
 
-    public float getRunning() {
+    public String getRunning() {
         return running;
     }
 
-    public void setRunning(float running) {
+    public void setRunning(String running) {
         this.running = running;
     }
 
-    public float getBiking() {
+    public String getBiking() {
         return biking;
     }
 
-    public void setBiking(float biking) {
+    public void setBiking(String biking) {
         this.biking = biking;
     }
 
-    public float getSwimming() {
+    public String getSwimming() {
         return swimming;
     }
 
-    public void setSwimming(float swimming) {
+    public void setSwimming(String swimming) {
         this.swimming = swimming;
     }
 
-    public float getPercentage() {
-        return percentage;
+    public String getTotal() {
+        return total;
     }
 
-    public void setPercentage(float percentage) {
-        this.percentage = percentage;
+    public void setTotal(String total) {
+        this.total = total;
     }
 }

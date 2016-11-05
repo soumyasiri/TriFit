@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+
+    <TextView
+        android:id="@+id/rewardPointText"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="You have earned 30 points this week"
+        android:textSize="26sp"/>
+
+    <ImageView
+        android:layout_width="350dp"
+        android:layout_height="350dp"
+        android:background="@drawable/struggling"
+        android:padding="30dp"/>
+
+    <TextView
+        android:id="@+id/rewardText"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Believe in the athlete you want to be and then be willing to work for it."
+        android:textSize="24sp"/>
+
+</LinearLayout>
